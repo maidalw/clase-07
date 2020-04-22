@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>ICVU + COVID-19</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Página portada</option>
+            <option value="page.html" selected>Página interior</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">COVID-19 en el sur de Chile</a></h1>
+        </header>
+        <section>
+            <h2>Índice de Calidad de Vida Urbana en el sur de Chile</h2>
+            <p>Este índice mide 6 dimensiones: <strong>La condición laboral</strong>, que se refiere a aquellas pertenecientes de la población residente en términos de ingreso, condiciones contractuales, costo de vida y nivel de endeudamiento. <strong>Ambiente de negocios</strong>, indica la capacidad que tiene una comuna para atraer actividad económica y nuevos emprendimientos, desarrollos inmobiliarios, servicios, etc. <strong>Condiciones socioculturales</strong>, se relaciona con el desarrollo del capital social, educación y convivencia social. <strong>Conectividad y movilidad</strong> hace referencia a los servicios asociados con el transporte público, accidentes de tránsito y conexión a internet. En cuando a <strong>salud y medio ambiente</strong>, se investiga el acceso y proximidad a una red de salud, sus carencias y nivel de exposición ambiental. Finalmente, <strong>vivienda y entorno</strong> se refiere al estado de precariedad de las viviendas, estado del espacio público y nivel de inseguridad en los barrios.</p>
+
+            <p>Los resultados se dividen en 3 clasificaciones:</p>
+            <!-- ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/dl -->
+            <dl>
+                <dt>Rango Superior</dt>
+                <br>
+                <dd>Cuando el ICVU es superior al promedio, teniendo un puntaje mayor a 58,0</dd>
+                <br>
+                <dt>Rango Promedio</dt>
+                <br>
+                <dd>Cuando el ICVU se encuentra dentro del promedio, teniendo un puntaje entre 50,6 y 58,0</dd>
+                <br>
+                <dt>Rango Inferior</dt>
+                <br>
+                <dd>Cuando el ICVU se encuentra bajo el promedio, teniendo un puntaje menor a 50,6</dd>
+            </dl>
+            <p>Esta es la lista de las 10 comunas analizadas bajo el ICVU en el 2019. En la parte superior se encuentran las que están sobre el estándar, y más abajo, las que están bajo el estándar:</p>
+
+            <table>
+                <tr>
+                    <th>Punta Arenas</th>
+                    <th>Magallanes</th>
+                    <th>61,79</th>
+                </tr>
+                <tr>
+                    <td>Valdivia</td>
+                    <td>Los Ríos</td>
+                    <td>59,75</td>
+                </tr>
+                <tr>
+                    <td>Puerto Varas</td>
+                    <td>Los Lagos</td>
+                    <td>58,18</td>
+                </tr>
+                <tr>
+                    <td>Puerto Montt</td>
+                    <td>Los Lagos</td>
+                    <td>56,52</td>
+                </tr>
+                <tr>
+                    <td>Osorno</td>
+                    <td>Los Lagos</td>
+                    <td>55,67</td>
+                </tr>                                               
+                 <tr>
+                    <td>Temuco</td>
+                    <td>Araucanía</td>
+                    <td>53,62</td>
+                </tr> 
+                <tr>
+                    <td>Coyhaique</td>
+                    <td>Aysén</td>
+                    <td>52,98</td>
+                </tr>
+                <tr>
+                    <td>Castro</td>
+                    <td>Los Lagos</td>
+                    <td>48,76</td>
+                </tr>
+                <tr>
+                    <td>Padre las Casas</td>
+                    <td>Araucanía</td>
+                    <td>47,46</td>
+                </tr>
+                <tr>
+                    <td>Lota</td>
+                    <td>Biobío</td>
+                    <td>47,1</td>
+                </tr>
+                <tr>
+                    <td>Villarrica</td>
+                    <td>Araucanía</td>
+                    <td>43,31</td>
+                </tr>                                               
+                 <tr>
+                    <td>Angol</td>
+                    <td>Araucanía</td>
+                    <td>39,41</td>
+                </tr>
+            </table>
+
+            <p>Si bien la mayoría de las comunas estudiadas tienen un resultado sobre o dentro del promedio, la centralización abismal del país puede relacionarse con el manejo deficiente del gobierno ante la pandemia. Volver <a href="index.html">a la página portada</a>.</p>
+
+        </section>
+        <footer>
+            <hr>
+            <p>Magdalena Labarca &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
